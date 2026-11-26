@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eWeber Portal</title>
+
+    <!-- Bootstrap and CSS imports -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+      <!-- Header -->
+  
+  <header>
+    <nav class="navbar navbar-expand navbar-dark bg-wsu" aria-label="Account">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">eWeber Portal</a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#" data-stub>Help</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" data-stub>Sign out</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="main-nav border-bottom" aria-label="Main">
+      <div class="container">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Portal Home</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+      <!-- Categories -->
+  
+
+  <div class="container mt-3">
+    <div class="row">
+      <nav class="col-lg-3 mb-4" aria-labelledby="cat-heading">
+        <h2 id="cat-heading" class="h5">Categories</h2>
+        <div class="list-group">
+          <button type="button" class="list-group-item list-group-item-action active" data-filter="all" aria-pressed="true">All Apps</button>
+          <button type="button" class="list-group-item list-group-item-action" data-filter="registration" aria-pressed="false">Registration</button>
+          <button type="button" class="list-group-item list-group-item-action" data-filter="finances" aria-pressed="false">Finances</button>
+          <button type="button" class="list-group-item list-group-item-action" data-filter="academics" aria-pressed="false">Academics</button>
+          <button type="button" class="list-group-item list-group-item-action" data-filter="comm" aria-pressed="false">Email</button>
+          <button type="button" class="list-group-item list-group-item-action" data-filter="personal" aria-pressed="false">Personal</button>
+        </div>
+      </nav>
+
+      <!-- Portal Options --> 
+
+      <main id="main-content" class="col-lg-9" tabindex="-1">
+        <section aria-labelledby="apps-heading">
+          <h2 id="apps-heading" class="h4">Portal Apps</h2>
+          <p id="app-count" class="visually-hidden" role="status" aria-live="polite"></p>
+          <ul class="row row-cols-2 row-cols-md-3 row-cols-xl-4 g-3 list-unstyled app-grid">
+            <li class="col" data-category="comm">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-envelope d-block mb-2" aria-hidden="true"></i>Wildcat Mail</span>
+              </a>
+            </li>
+            <li class="col" data-category="comm">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-envelope-paper d-block mb-2" aria-hidden="true"></i>Faculty/Staff Email</span>
+              </a>
+            </li>
+            <li class="col" data-category="academics">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-laptop d-block mb-2" aria-hidden="true"></i>WSU Online - Canvas</span>
+              </a>
+            </li>
+            <li class="col" data-category="comm">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-people d-block mb-2" aria-hidden="true"></i>Employee Directory</span>
+              </a>
+            </li>
+            <li class="col" data-category="comm">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-megaphone d-block mb-2" aria-hidden="true"></i>Announcements</span>
+              </a>
+            </li>
+            <li class="col" data-category="academics">
+              <a class="card h-100 text-center app-tile" href="#" data-stub>
+                <span class="card-body"><i class="bi bi-signpost-split d-block mb-2" aria-hidden="true"></i>New Student Orientation</span>
+              </a>
+            </li>
+            <li class="col" data-category="registration">
+              <a class="card h-100 text-center app-tile" href="#">
+                <span class="card-body"><i class="bi bi-calendar-week d-block mb-2" aria-hidden="true"></i>Student Course Schedule</span>
+              </a>
+            </li>
+            <li class="col" data-category="registration">
+              <a class="card h-100 text-center app-tile" href="agreement.html">
+                <span class="card-body"><i class="bi bi-journal-plus d-block mb-2" aria-hidden="true"></i>Register for Classes</span>
+              </a>
+            </li>
+          </ul>
+          <p id="no-apps" class="alert alert-secondary" hidden>No apps found. Try another search.</p>
+        </section>
+      </main>
+    </div>
+  </div>
+
+        <!-- Footer -->
+  
+
+  <footer class="bg-dark text-white mt-5">
+    <div class="container py-3">
+      <p class="mb-0">2026 Weber State University</p>
+      <p class="mb-0">Need help? Call IT Help Desk at (801) 555-5555</p>
+    </div>
+  </footer>
+
+        <!-- Bootstrap and Javascript Imports -->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

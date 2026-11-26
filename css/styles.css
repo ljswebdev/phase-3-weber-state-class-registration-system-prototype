@@ -1,0 +1,200 @@
+body {
+  background-color: #f7f4fa;
+  color: #212529;
+}
+
+a {
+  color: #492365;
+}
+
+a:hover {
+  color: #2e1640;
+}
+
+.bg-wsu {
+  background-color: #492365;
+}
+
+.navbar-brand {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar-dark .nav-link,
+.navbar-dark .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.main-nav {
+  background-color: #ede7f3;
+}
+
+.nav-link {
+  color: #492365;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link:hover {
+  color: #2e1640;
+  background-color: #ffffff;
+}
+
+.main-nav .nav-link.active {
+  font-weight: bold;
+  background-color: #ffffff;
+  border-bottom: 3px solid #492365;
+}
+
+.nav-tabs .nav-link {
+  color: #495057;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active {
+  color: #492365;
+}
+
+.btn,
+.form-control,
+.form-select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #492365;
+  border-color: #492365;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #2e1640;
+  border-color: #2e1640;
+}
+
+.btn-primary:disabled {
+  background-color: #d9d9e0;
+  border-color: #d9d9e0;
+  color: #4a4a55;
+  opacity: 1;
+}
+
+.btn-outline-primary {
+  color: #492365;
+  border-color: #492365;
+  background-color: #ffffff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #ede7f3;
+  color: #2e1640;
+  border-color: #2e1640;
+}
+
+.btn-outline-primary:active {
+  background-color: #492365;
+  color: #ffffff;
+}
+
+.valid-feedback {
+  color: #146c43;
+}
+
+.invalid-feedback {
+  color: #b02a37;
+}
+
+.btn-outline-secondary {
+  color: #495057;
+  border-color: #495057;
+  background-color: #ffffff;
+}
+
+a:focus-visible,
+.btn:focus-visible,
+.nav-link:focus-visible,
+.list-group-item:focus-visible,
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  outline: 3px solid #1a5fb4;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+.class-block {
+  background-color: #ede7f3;
+  border-left: 4px solid #492365;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.class-block.registered {
+  background-color: #d1e7dd;
+  border-left-color: #146c43;
+}
+
+.calendar td {
+  height: 90px;
+  min-width: 120px;
+}
+
+.list-group-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-group-item.active {
+  background-color: #492365;
+  border-color: #492365;
+}
+
+.app-tile {
+  color: #212529;
+  text-decoration: none;
+}
+
+.app-tile:hover {
+  border-color: #492365;
+  background-color: #ede7f3;
+}
+
+.app-tile i {
+  font-size: 28px;
+  color: #492365;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.form-check-input {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0 8px 0 0;
+  float: none;
+  flex-shrink: 0;
+}
+
+.form-check-input:checked {
+  background-color: #492365;
+  border-color: #492365;
+}
+
+.form-check-label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.statement {
+  background-color: #eef4fc;
+}
